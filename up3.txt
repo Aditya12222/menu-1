@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant menu</title>
+    <link rel="stylesheet" href="assests/style.css">
+</head>
+<style>
+	*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222;
+}
+
+.main {
+    width: 1170px;
+    margin: 100px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    postion: relative;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.section-title h2:before {
+    content: " ";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.menus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-column {
+    width: 31%;
+}
+
+.menu-column h4 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 13px;
+}
+
+.menu-column h4:before {
+    content: " ";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+}
+
+.single-menu {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.single-menu .menu-content h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.single-menu .menu-content h5 span {
+    color: blue;
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.single-menu idly {
+    border-radius: 100%;
+    max-width: 110px;
+    border: 1px dashed #ddd;
+    padding: 3px;
+    margin-right: 19px;
+}
+	</style>
+<body>
+    <div class="main">
+        <div class="section-title">
+            <h2>Our menu</h4>
+            <p>Today's menu is intetresting and tasty</p>
+        </div>
+        <div class="menus">
+            <div class="menu-column">
+                <h4>breakfast</h4>
+                <div class="single-menu">
+                    <img src="https://s.yimg.com/os/creatr-uploaded-images/2020-06/c39ecc20-ab32-11ea-9efb-b01583fe6e6f"width="200" height="200"alt="">
+                    <div class="menu-content">
+                        <h5>dumpling<span>$50</span></h5>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://th.bing.com/th/id/OIP.IeIMW6syw-4IKoyeuROcsQHaEK?pid=ImgDet&rs=1"width="200" height="200" alt="">
+                    <div class="menu-content">
+                        <h5>chinese noodle <span>$50</span></h5>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://jamiegeller.com/.image/t_share/MTY1NTI0Nzg4NTY5MzgzOTYz/tempura-sushi-rolls.jpg"width="200" height="200" alt="">
+                    <div class="menu-content">
+                        <h5>tempura sushi <span>$50</span></h5>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="menu-column">
+                    <h4>lunch</h4>
+                    <div class="single-menu">
+                        <img src="https://www.travelchinaguide.com/images/photogallery/2019/1203155420.jpg"width="200" height="200" alt="">
+                        <div class="menu-content">
+                            <h5>steamed stuffed bun<span>$50</span></h5>
+                            <p</p>
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="assets/img/fried rice.jpg" alt="">
+                        <div class="menu-content">
+                            <h5>fried rice <span>$50</span></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="assets/img/meals.webp"width="200" height="200" alt="">
+                        <div class="menu-content">
+                            <h5>meals <span>$50</span></h5>
+                            <p</p>
+                        </div>
+                    </div>
+                    <div class="menu-column">
+                        <h4>dinner</h4>
+                        <div class="single-menu">
+                            <img src="https://i.pinimg.com/originals/25/c3/36/25c33626590775077466bf56bc22c80b.jpg"width="200" height="200" alt="">
+                            <div class="menu-content">
+                                <h5>glutinous riceballs <span>$50</span></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            <img src="https://thenutritionwatchdog.com/wp-content/uploads/2017/04/shutterstock_Sushi.jpg"width="200" height="200" alt="">
+                            <div class="menu-content">
+                                <h5>sushi<span>$50</span></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            <img src="https://2.bp.blogspot.com/-eD-vGMaj98g/TynwFDjAMvI/AAAAAAAAN9o/FMWwE5iauW0/s1600/Wonton.jpg"width="200" height="200" alt="">
+                            <div class="menu-content">
+                                <h5>wonton <span>$50</span></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
